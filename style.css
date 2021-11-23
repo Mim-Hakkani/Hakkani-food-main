@@ -1,0 +1,276 @@
+
+/***************
+        1.typography
+        2.header area
+        3.about area
+        4.food menu
+        5. our clints 
+        6.reservation table 
+        7.footer top area
+        8.main footer
+
+*****************/
+
+
+/********** typography ************/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+h1{
+    
+    color: #585858;
+    font-weight: 600;
+}
+
+/****** header *************/
+
+.header{
+    display: flex;
+}
+.head-left-text{
+    padding: 150px 107px;
+    width: 70%;
+    margin-left: 30px;
+}
+.head-left-text h1{
+    font-size: 48px;
+    font-style: initial;
+}
+.head-left-text p{
+    color: gray;
+    font-size: 15px;
+    width: 70%;
+    margin-bottom: 52px;
+}
+
+/************* about me ********/
+
+.my-details a ,.head-left-text a{ 
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to right,#ff995b,#ff6a50);
+    color: white;
+    padding: 18px 28px;
+    border-radius: 31px;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px orange;
+} 
+.head-img-right{
+    padding: 3px 0px;
+    margin-right: 40px;
+}
+.about-me{
+   background-image: url(images/shapes/7.png);
+   background-repeat: no-repeat;
+   height: 500px;
+   background-size: cover;
+   display: flex;
+}
+.my-img{
+    width: 50%;
+}
+.my-img img{
+margin: 0 auto;
+display: block;
+height: 475px;
+}
+.my-details {
+	width: 50%;
+    padding: 100px 0px;
+}
+.my-details h1{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 37px;
+}
+.my-details p {
+	width: 80%;
+	text-align: justify;
+	padding: 5px;
+	font-size: 16px;
+	margin-bottom: 48px;
+	line-height: 35px;
+}
+
+/********* food menu **********/
+.food-menu{
+    margin: 100px 0px;
+}
+.food-menu-title{
+    text-align: center;
+}
+.food-menu-title h1 {
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	padding: 5px 0px;
+}
+.food-menu-title p {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #555151;
+	font-size: 16px;
+	line-height: 28px;
+	padding: 5px;
+}
+.food-menu-special{
+    display: flex;
+    margin-top: 60px;
+}
+.recipies {
+    width: 28%;
+    margin: 19px auto;
+    box-shadow: 10px 13px 17px gray;
+    padding: 31px 27px;
+    border-radius: 32px;
+    text-align: left;
+}
+.recipies img {
+	width: 92%;
+	height: 324px;
+	border-radius: 62px;
+	/* margin: 0 auto; */
+	/* display: block; */
+	padding: 19px;
+}
+.recipies h2 {
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+.recipies p {
+	font-size: 15px;
+	color: #2b2424e6;
+	padding: 5px 5px 5px 0px;
+	text-align: justify;
+}
+
+/***************clints ***********/
+.clints {
+	display: flex;
+	text-align: center;
+	box-shadow: 0px 0px 13px gray;
+	margin: 150px;
+	padding: 70px;
+	/* border: 1px solid #b1a7a7; */
+}
+.clints h1 {
+	text-align: center;
+	display: block;
+	margin: 29px auto;
+	font-size: 68px;
+	color: #000;
+	letter-spacing: 1px;
+	padding: 0px;
+}
+.clints span {
+	color: #423e3e;
+	font-size: 8px;
+	display: block;
+	padding: 41px 0px;
+	font-size: 23px !important;
+	margin-left: 73px;
+	font-weight: normal;
+}
+
+/*
+Reservation section 
+*/
+
+.reservation{
+    display: flex;
+}
+.form-left-details {
+	width: 33%;
+	padding: 50px 69px;
+}
+.our-description-2 h2,.our-description-1 h2 {
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: orange;
+	font-size: 33px;
+}
+.our-description-1 p {
+	font-size: 15px;
+	color: #594f4f;
+}
+.our-description-2 p {
+	font-family: 'Yomogi', cursive;
+
+	
+}
+/**** reservation form *****/
+.reservation-form{
+    width: 67%;
+    text-align: center;
+    margin-top: 50px;
+}
+input[type="text"] {
+	padding: 19px;
+	width: 41%;
+	margin-right: 13px;
+	margin-bottom: 26px;
+}
+input[type="date"], input[type="time"] {
+	padding: 19px;
+	width: 18%;
+	margin-right: 13px;
+	margin-bottom: 26px;
+}
+textarea {
+	width: 90%;
+	padding: 15px;
+    margin-bottom: 35px;
+}
+input[type="submit"] {
+	width: 25%;
+	padding: 16px 25px;
+	border-radius: 35px;
+	border: 0px;
+	background-image: linear-gradient(to right,orange,#f9664c);
+	font-size: 22px;
+	color: #fff;
+	font-weight: 800;
+	text-transform: capitalize;
+}
+
+ /* footer top section */
+ .footer-top {
+	height: 454px;
+	margin-top: 150px;
+	background-color: rgba(253, 213, 193, 0.33);
+    display: flex;
+
+}
+ .food-maps,.food-testimonial,.opens-time{
+     width: 30%;
+     margin: 0 auto;
+ }
+ .food-testimonial p {
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+}
+ .food-testimonial img {
+	height: 240px;
+	width: 369px;
+	margin: 25px auto;
+	display: block;
+}
+/* footer section area */
+ footer {
+	background-color: #000;
+	padding: 25px 40px;
+	height: 150px;
+	overflow: hidden;
+	margin-top: 0px;
+    text-align: center;
+}
+footer > p {
+	color: #fff;
+	font-size: 13px;
+}
